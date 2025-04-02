@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-light-pattern {
+  background: linear-gradient(to right, #f8fafc, #ffffff);
+}
+
+.command-grid {
+  @apply grid grid-cols-2 sm:grid-cols-3 gap-4 p-6;
+}
+
+.command-button {
+  @apply p-4 rounded-lg text-white shadow-md hover:shadow-lg transition-all flex items-center space-x-3 font-raleway;
+}
+
+/* Pastel Colors */
+.bg-pastel-orange {
+  @apply bg-orange-200 hover:bg-orange-300 text-orange-800;
+}
+
+.bg-pastel-yellow {
+  @apply bg-yellow-200 hover:bg-yellow-300 text-yellow-800;
+}
+
+.bg-pastel-pink {
+  @apply bg-pink-200 hover:bg-pink-300 text-pink-800;
+}
